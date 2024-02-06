@@ -1,0 +1,26 @@
+.footer {
+  height: 215px;
+  background: #2C2B2B;
+  display: flex;
+  flex-direction: column;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .socials i {
+  color: #1CDD87;
+  font-size: 30px;
+}
+
+.socials .credits {
+  text-align: center;
+  color: white;
+  opacity: 0.3;
+}
+.socials {
+  margin: auto;
+  text-align: center;
+}

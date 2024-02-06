@@ -1,0 +1,29 @@
+.card {
+  width: 210px;
+  border-radius: 4px;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 15px;
+}
+
+
+.card h3, .card p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.card p {
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
